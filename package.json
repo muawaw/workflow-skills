@@ -1,0 +1,22 @@
+{
+  "name": "@muawaw/session-state",
+  "version": "1.0.0",
+  "description": "Portable agent session-state skill and context-budget CLI",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muawaw/workflow-skills.git"
+  },
+  "bin": {
+    "session-state": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
